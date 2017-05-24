@@ -1,0 +1,22 @@
+{
+  "name": "github-api-modules",
+  "version": "1.0.0",
+  "description": "npm modules for use with the GitHub API",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/github-api-modules",
+  "author": "zeke",
+  "license": "MIT",
+  "scripts": {
+    "build": "node collect.js",
+    "render": "node render.js > readme.md"
+  },
+  "devDependencies": {
+    "dedent": "^0.7.0",
+    "download-counts": "^1.72.0",
+    "mkdirp": "^0.5.1",
+    "ora": "^1.2.0",
+    "package-stream": "^3.0.0",
+    "pluralize": "^4.0.0",
+    "require-dir": "^0.3.1"
+  }
+}
