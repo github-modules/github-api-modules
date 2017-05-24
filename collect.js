@@ -14,7 +14,9 @@ registry
       pkg.name && 
       pkg.description && 
       (pkg.name.match(/github/i) || pkg.description.match(/github/i)) &&
-      (pkg.description.match(/api/i) || pkg.description.match(/client/i))
+      (pkg.description.match(/api/i) || pkg.description.match(/client/i)) &&
+      !pkg.description.match('github.com') && 
+      !pkg.name.match('@')
     ) {
       const file = path.join(__dirname, `packages/${pkg.name}.json`)
       mkdirp(path.dirname(file))
