@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "dedent": "^0.7.0",
+    "dependent-counts": "^2.0.0",
     "download-counts": "^1.72.0",
     "mkdirp": "^0.5.1",
     "ora": "^1.2.0",
