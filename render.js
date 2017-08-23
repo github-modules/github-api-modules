@@ -19,10 +19,8 @@ console.log(dedent`# GitHub API Modules
 
 > a list of ${packages.length} javascript modules for using the GitHub API.
 
-See also 
-[pull-request-modules](https://github.com/nice-registry/pull-request-modules)
-and
-[http-modules](https://github.com/nice-registry/http-modules).
+Find more datasets like this at 
+[nice-registry/about](https://github.com/nice-registry/about#datasets).
 
 ## How?
 
